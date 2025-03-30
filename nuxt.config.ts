@@ -10,10 +10,14 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/': {
-        static: true,
+        prerender: true,
     },
     '/test': {
-        static: true,
+        prerender: true,
+    },
+    
+    '/**.php': {
+        redirect: '/bin',
     }
   },
   
