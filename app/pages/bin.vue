@@ -1,5 +1,7 @@
 <template>
-    <Nav />
+    <div>
+        <Nav />
 
-    <h1>Bin page</h1>
+        <h1>Bin page</h1>
+    </div>
 </template>

@@ -15,10 +15,6 @@ export default defineNuxtConfig({
     '/test': {
         prerender: true,
     },
-    
-    '/**.php': {
-        redirect: '/bin',
-    }
   },
   
   telemetry: {
