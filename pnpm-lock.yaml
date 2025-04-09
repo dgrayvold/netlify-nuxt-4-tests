@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@netlify/edge-functions':
-        specifier: ^2.11.1
-        version: 2.11.1
       nuxt:
         specifier: ^3.16.1
         version: 3.16.1(@parcel/watcher@2.5.1)(db0@0.3.1)(ioredis@5.6.0)(magicast@0.3.5)(rollup@4.38.0)(terser@5.39.0)(vite@6.2.3(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.1))(yaml@2.7.1)
@@ -20,6 +17,10 @@ importers:
       vue-router:
         specifier: ^4.5.0
         version: 4.5.0(vue@3.5.13)
+    devDependencies:
+      '@netlify/edge-functions':
+        specifier: ^2.11.1
+        version: 2.11.1
 
 packages:
 
